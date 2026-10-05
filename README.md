@@ -21,3 +21,7 @@ Then open http://localhost:8765
 ```
 vercel deploy --prod
 ```
+
+## Deployment
+
+Every push to `main` is deployed automatically to production by Vercel.
