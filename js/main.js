@@ -31,7 +31,7 @@
     var md = document.querySelector('meta[name="description"]');
     if (md) md.content = lang === "fr"
       ? "mbelaid consulting : automatisation par l'IA, business analytics et formation par Mohamed BELAID, consultant freelance."
-      : "mbelaid consulting: AI automation, business analytics and training by Mohamed BELAID, freelance consultant. Reduce repetitive work and unlock sustainable growth.";
+      : "mbelaid consulting: AI automation, business analytics and training by Mohamed BELAID, freelance consultant. Less repetitive work, more time for decisions.";
     clearErrors();
     if (persist) store(lang);
   }
