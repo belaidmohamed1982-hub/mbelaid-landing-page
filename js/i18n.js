@@ -3,7 +3,7 @@ window.I18N = {
   en: {
     skip: "Skip to content",
     "nav.services": "Services", "nav.how": "How it works", "nav.about": "About", "nav.faq": "FAQ", "nav.contact": "Contact",
-    "nav.whatsapp": "WhatsApp", "nav.menu": "Menu", "aria.nav": "Main navigation", "aria.profiles": "Profiles", "aria.lang": "Language",
+    "footer.card": "Digital card", "nav.whatsapp": "WhatsApp", "nav.menu": "Menu", "aria.nav": "Main navigation", "aria.profiles": "Profiles", "aria.lang": "Language",
     "hero.eyebrow": "Automate what matters",
     "hero.title": "Intelligent Automation for Modern Businesses",
     "hero.sub": "I help teams stop doing by hand what a well-built automation can do in minutes.",
@@ -58,7 +58,7 @@ window.I18N = {
   fr: {
     skip: "Aller au contenu",
     "nav.services": "Services", "nav.how": "Comment ça marche", "nav.about": "À propos", "nav.faq": "FAQ", "nav.contact": "Contact",
-    "nav.whatsapp": "WhatsApp", "nav.menu": "Menu", "aria.nav": "Navigation principale", "aria.profiles": "Profils", "aria.lang": "Langue",
+    "footer.card": "Carte digitale", "nav.whatsapp": "WhatsApp", "nav.menu": "Menu", "aria.nav": "Navigation principale", "aria.profiles": "Profils", "aria.lang": "Langue",
     "hero.eyebrow": "Automatisez l'essentiel",
     "hero.title": "L'automatisation intelligente pour les entreprises modernes",
     "hero.sub": "J'aide les équipes à arrêter de faire à la main ce qu'une automatisation bien conçue fait en quelques minutes.",
