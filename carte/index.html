@@ -45,6 +45,7 @@ footer{margin-top:28px;color:var(--text3);font:600 11px var(--font-b);letter-spa
     <a class="a" href="https://www.mbelaid.com"><span>Site web<small>mbelaid.com</small></span><span aria-hidden="true">→</span></a>
     <a class="a" href="mailto:contact@mbelaid.com"><span>Email<small>contact@mbelaid.com</small></span><span aria-hidden="true">→</span></a>
     <a class="a" href="https://www.linkedin.com/in/mbelaid"><span>LinkedIn<small>linkedin.com/in/mbelaid</small></span><span aria-hidden="true">→</span></a>
+    <a class="a" href="https://github.com/belaidmohamed1982-hub"><span>GitHub<small>github.com/belaidmohamed1982-hub</small></span><span aria-hidden="true">→</span></a>
   </div>
   <button id="vc">Enregistrer dans mes contacts</button>
   <footer>Automate what matters</footer>
@@ -53,7 +54,7 @@ footer{margin-top:28px;color:var(--text3);font:600 11px var(--font-b);letter-spa
 document.getElementById('vc').onclick=()=>{
   const v=['BEGIN:VCARD','VERSION:3.0','N:Belaid;Mohamed;;;','FN:Mohamed Belaid','ORG:MBelaid Consulting',
     'TITLE:AI Solutions Architect | Business Analytics','TEL;TYPE=CELL:+213776205950',
-    'EMAIL:contact@mbelaid.com','URL:https://www.mbelaid.com','URL:https://www.linkedin.com/in/mbelaid','END:VCARD'].join('\r\n');
+    'EMAIL:contact@mbelaid.com','URL:https://www.mbelaid.com','URL:https://www.linkedin.com/in/mbelaid','URL:https://github.com/belaidmohamed1982-hub','END:VCARD'].join('\r\n');
   const a=document.createElement('a');a.href=URL.createObjectURL(new Blob([v],{type:'text/vcard'}));
   a.download='Mohamed-Belaid.vcf';a.click();
 };
